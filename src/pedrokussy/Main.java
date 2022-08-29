@@ -3,11 +3,11 @@ package pedrokussy;
 public class Main {
 	public static void  main(String[] args) {
 
-		Funcionario funcionario = new Funcionario("Bobongu Cecile", "Venda");
-		
+		Funcionario funcionario = new Funcionario("Nazlinha  Cuteta", "Gestora");
+		funcionario.setId(13);
 		FuncionarioDAO funcionarioDAO = new FuncionarioDAO();
 		
-		funcionarioDAO.novoFuncionario(funcionario);
+		funcionarioDAO.atualizarFuncionario(funcionario);
 			
 	}
 } 
